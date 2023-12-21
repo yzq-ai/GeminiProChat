@@ -223,7 +223,7 @@ export default () => {
           <textarea
             ref={inputRef!}
             onKeyDown={handleKeydown}
-            placeholder="Enter something..."
+            placeholder="请输入..."
             autocomplete="off"
             autofocus
             onInput={() => {
@@ -233,7 +233,7 @@ export default () => {
             rows="1"
             class="gen-textarea"
           />
-          <button onClick={handleButtonClick} gen-slate-btn>
+          <button  onClick={handleButtonClick} gen-slate-btn winth="80px">
             发送
           </button>
           <button title="Clear" onClick={clear} gen-slate-btn>
