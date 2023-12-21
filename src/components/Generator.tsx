@@ -233,7 +233,7 @@ export default () => {
             rows="1"
             class="gen-textarea"
           />
-          <button onClick={handleButtonClick} gen-slate-btn >
+          <button style="width:100px" onClick={handleButtonClick} gen-slate-btn >
             发送
           </button>
           <button title="Clear" onClick={clear} gen-slate-btn>
@@ -251,14 +251,3 @@ export default () => {
     </div>
   )
 }
-<style>
-.gen-slate-btn, [gen-slate-btn=""] {
-    height: 3rem;
-    border-radius: 0.125rem;
-    --un-bg-opacity: 1;
-    background-color: rgba(148,163,184,var(--un-bg-opacity));
-    --un-bg-opacity: .15;
-    padding: 0.5rem 1rem;
-    width:100px;
-}
-</style>
